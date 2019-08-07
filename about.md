@@ -3,28 +3,22 @@ layout: page
 title: About
 ---
 
-<p class="message">
+<!-- <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+</p> -->
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+ <p align="center">
+   <img src="/assets/images/circular_profile.png" width="200" />
+ </p>
+I'm a physics graduate student at Princeton, advised by  Sebastian Seung. My research interests lie at the intersection of deep learning, computer vision, and computational neuroscience.
 
-There are currently two themes built on Poole:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+<!-- <div class="img">
+    <img src="http://www.gravatar.com/avatar/{{site.author.emailalt_md5}}?s=240" />
+</div> -->
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+<!-- Explain what is in the blog -->
 
-## Setup
+<!-- My main theoretical focus is in biologically plausible unsupervised learning. Can we take inspiration from the visual cortex to learn representations of visual scenes that are generally useful for downstream tasks such as object recognition? The core problem is invariances. Can we find a learning rule that handles this?
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+I've also worked on a related, but more empirical question: How is the visual cortex wired together? After a small volume* of visual cortex is imaged by electron microscopes, convolutional networks scan through the volume and label neurons and their synapses, resulting in a (partial) connectivity graph, the "connectome". Training networks to do this with sufficient accuracy is easier said than done however... -->
