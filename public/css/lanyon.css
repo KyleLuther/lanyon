@@ -543,6 +543,18 @@ a.pagination-item:hover {
   color: #8f5536;
 }
 
+/* Kyle: Darker Blue */
+.theme-base-1b .sidebar,
+.theme-base-1b .sidebar-toggle:active,
+.theme-base-1b #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #374785;
+}
+/* .theme-base-1b .container a,
+.theme-base-1b .sidebar-toggle,
+.theme-base-1b .related-posts li a:hover {
+  color: #374785;
+} */
+
 
 /*
  * Overlay sidebar
