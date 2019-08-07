@@ -7,9 +7,10 @@ title: About
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p> -->
 
- <p align="center">
-   <img src="/assets/images/circular_profile.png" width="200" />
- </p>
+<p align="center">
+  <img src="/assets/images/circular_profile.png" width="200" />
+</p>
+
 I'm a physics graduate student at Princeton, advised by  Sebastian Seung. My research interests lie at the intersection of deep learning, computer vision, and computational neuroscience.
 
 
