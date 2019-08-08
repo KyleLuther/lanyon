@@ -15,9 +15,9 @@ title:               Kyle Luther
 github_username:  KyleLuther
 markdown: kramdown
 
-gems: [jekyll-paginate]
-paginate: 10
-paginate_path: "page:num"
+# gems: [jekyll-paginate]
+# paginate: 10
+# paginate_path: "page:num"
 
 # About/contact
 author:
