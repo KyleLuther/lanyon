@@ -4,7 +4,8 @@
   {% include head.html %}
   {% include mathjax.html %}
 
-  <body class="theme-base-1b">
+  <!-- <body class="theme-base-1b"> -->
+  <body class="theme-base-08">
   <!-- <body> -->
 
     {% include sidebar.html %}
@@ -16,10 +17,10 @@
         <div class="container">
           <h3 class="masthead-title">
             {% if page.title == "Home" %}
-              <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}&nbsp;&nbsp;</a>
+              <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>&nbsp;&nbsp;
               <small>Posts</small>
             {% else %}
-              <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}&nbsp;&nbsp;</a>
+              <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>&nbsp;&nbsp;
               <small>{{ page.title }}</small>
             {% endif %}
 
