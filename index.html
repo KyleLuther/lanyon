@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<div class="posts">
+<!-- <div class="posts">
   {% for post in site.posts %}
   <div class="post">
     <h2 class="post-title">
@@ -12,12 +12,41 @@ title: Home
     </h2>
 
     <span class="post-date">{{ post.date | date_to_string }}&nbsp;&nbsp;</span>
-    <!-- {{ post.description }}&nbsp;&nbsp;<a href="{{ post.url }}">Read More</a> -->
     {{ post.description }}
 
   </div>
   {% endfor %}
+</div> -->
+
+<div class="posts">
+  {% for post in site.posts %}
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+    <tr> <h3> <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a> </h3> </tr>
+    {% if post.featured-image %}
+  	  <tr>
+      <td width="25%">
+        <img src="{{post.featured-image}}" >
+      </td>
+      <td valign="top" width="75%">
+        <br>
+        <span class="post-date">{{ post.date | date_to_string }}&nbsp;&nbsp;</span>
+        {{ post.description }}
+       </td>
+     </tr>
+    {% else %}
+      <tr>
+        <td valign="top" width="100%">
+          <br>
+          <span class="post-date">{{ post.date | date_to_string }}&nbsp;&nbsp;</span>
+          {{ post.description }}
+        </td>
+      </tr>
+    {% endif %}
+  </table>
+
+{% endfor %}
 </div>
+
 
 <!-- <div class="posts">
   {% for post in paginator.posts %}
